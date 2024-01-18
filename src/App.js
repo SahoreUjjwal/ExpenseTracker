@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 import { useState, useReducer ,useEffect} from "react";
 import "./App.css";
 
-=======
-import { useState, useReducer } from "react";
-import "./App.css";
-import { db } from "./firestore_init";
-import { collection,setDoc, addDoc,doc } from "firebase/firestore"; 
->>>>>>> 01330b3cdc5e8a4403d0750c3bd3bcaf6c2cf00c
 // components imports
 import ExpenseForm from "./components/ExpenseForm/ExpenseForm";
 import ExpenseInfo from "./components/ExpenseInfo/ExpenseInfo";

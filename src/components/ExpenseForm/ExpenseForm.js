@@ -32,7 +32,6 @@ const ExpenseForm = ({
       clearInput();
       return;
     }
-
     const expense = {
       text: expenseText,
       amount: expenseAmount,

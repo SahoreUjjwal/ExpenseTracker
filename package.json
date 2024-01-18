@@ -31,7 +31,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+<<<<<<< HEAD
     "test": "react-scripts test  --watchAll=false '--testResultsProcessor=<rootDir>/custom-reporter' '--silent' '--maxWorkers=2' ./",
+=======
+    "test": "react-scripts test --watchAll=false '--testResultsProcessor=<rootDir>/custom-reporter' '--silent' '--maxWorkers=2' ./",
+>>>>>>> 01330b3cdc5e8a4403d0750c3bd3bcaf6c2cf00c
     "eject": "react-scripts eject"
   },
   "browserslist": [
